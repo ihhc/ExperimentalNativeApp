@@ -17,6 +17,7 @@ wxMainClient::wxMainClient() : wxFrame(nullptr, wxID_ANY, "HTTPClient")
 	init();
 	CreateStatusBar();
 }
+//
 
 void wxMainClient::init()
 {
