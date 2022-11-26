@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.2017
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wxClient", "wxClient\wxClient.vcxproj", "{2D3F7B16-969F-4721-B7B9-CFA96EAED68B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLIteSmp", "SQLIteSmp\SQLIteSmp.vcxproj", "{6831ADAB-47C0-4D24-AB26-5E11B6107B2A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PGSqlSmp", "PGSqlSmp\PGSqlSmp.vcxproj", "{EA05650D-2B41-4927-A9A3-896BAE81A069}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{2D3F7B16-969F-4721-B7B9-CFA96EAED68B}.Release|x64.Build.0 = Release|x64
 		{2D3F7B16-969F-4721-B7B9-CFA96EAED68B}.Release|x86.ActiveCfg = Release|Win32
 		{2D3F7B16-969F-4721-B7B9-CFA96EAED68B}.Release|x86.Build.0 = Release|Win32
+		{6831ADAB-47C0-4D24-AB26-5E11B6107B2A}.Debug|x64.ActiveCfg = Debug|x64
+		{6831ADAB-47C0-4D24-AB26-5E11B6107B2A}.Debug|x64.Build.0 = Debug|x64
+		{6831ADAB-47C0-4D24-AB26-5E11B6107B2A}.Debug|x86.ActiveCfg = Debug|Win32
+		{6831ADAB-47C0-4D24-AB26-5E11B6107B2A}.Debug|x86.Build.0 = Debug|Win32
+		{6831ADAB-47C0-4D24-AB26-5E11B6107B2A}.Release|x64.ActiveCfg = Release|x64
+		{6831ADAB-47C0-4D24-AB26-5E11B6107B2A}.Release|x64.Build.0 = Release|x64
+		{6831ADAB-47C0-4D24-AB26-5E11B6107B2A}.Release|x86.ActiveCfg = Release|Win32
+		{6831ADAB-47C0-4D24-AB26-5E11B6107B2A}.Release|x86.Build.0 = Release|Win32
+		{EA05650D-2B41-4927-A9A3-896BAE81A069}.Debug|x64.ActiveCfg = Debug|x64
+		{EA05650D-2B41-4927-A9A3-896BAE81A069}.Debug|x64.Build.0 = Debug|x64
+		{EA05650D-2B41-4927-A9A3-896BAE81A069}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA05650D-2B41-4927-A9A3-896BAE81A069}.Debug|x86.Build.0 = Debug|Win32
+		{EA05650D-2B41-4927-A9A3-896BAE81A069}.Release|x64.ActiveCfg = Release|x64
+		{EA05650D-2B41-4927-A9A3-896BAE81A069}.Release|x64.Build.0 = Release|x64
+		{EA05650D-2B41-4927-A9A3-896BAE81A069}.Release|x86.ActiveCfg = Release|Win32
+		{EA05650D-2B41-4927-A9A3-896BAE81A069}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
