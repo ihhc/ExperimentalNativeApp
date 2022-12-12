@@ -130,7 +130,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(WXWIN)\lib\vc_x64_lib;C:\curl786\builds\libcurl-vc15-x64-debug-static-ipv6-sspi-schannel\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(WXWIN)\lib\vc_x64_lib;$(LIBCURL)\builds\libcurl-vc15-x64-debug-static-ipv6-sspi-schannel\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>$(LIBCURL)\builds\libcurl-vc16-x64-debug-static-ipv6-sspi-schannel\lib\libcurl_a_debug.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
