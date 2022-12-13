@@ -8,6 +8,7 @@
 #include "wx\wx.h"
 #include "wx\html\htmlwin.h"
 #include "wx\aui\framemanager.h"
+#include "wx\splitter.h"
 #include "curl.h"
 
 using namespace std;
@@ -20,21 +21,21 @@ public:
 	~wxMainClient();
 
 private:
-	wxPanel* bottompanel = nullptr;
-	wxPanel* toppanel = nullptr;
-	//wxBoxSizer* topsizer = nullptr;
-	wxHtmlWindow* webView = nullptr;
 	wxToolBar* toolbar = nullptr;
 	wxTextCtrl* address = nullptr;
-	wxTextCtrl* htmlSource = nullptr;
 	wxButton* gobutton = nullptr;
-	wxAuiManager auiManager;
+	wxHtmlWindow* webView = nullptr;
+	wxTextCtrl* htmlSource = nullptr;
+	wxSplitterWindow* hrSplitter = nullptr;
+	wxStatusBar* statusBar = nullptr;
 
-	void init();
+	void initBars();
 	void loadPage();
+	void clearOut();
+	static size_t write_data(void* ptr, size_t size, size_t mem, void* param);
 
 	void OnGoBtnClicked(wxCommandEvent &evt);
 
-	wxDECLARE_EVENT_TABLE();
+	DECLARE_EVENT_TABLE();
 };
 
